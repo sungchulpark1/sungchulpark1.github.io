@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.scroll-down svg {
+  margin-top: 1.5em;
+  cursor: pointer;
+}

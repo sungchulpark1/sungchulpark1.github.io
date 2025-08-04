@@ -29,8 +29,12 @@ function App() {
           Hello! I'm a Full Stack Developer based in Mississauga, Ontario, Canada.
         </p>
 
-        <p>
+        <p className="mb-4">
           I specialize in building web applications using React, Node.js, and various other technologies.
+        </p>
+
+        <p>
+          I used React, Vite, TypeScript, and Tailwind CSS to build this portfolio website.
         </p>
 
         {/* <div>

@@ -2,7 +2,7 @@
 
 This is my personal web portfolio.
 
-Built with Vite, TypeScript, and Tailwind CSS.
+Built with React, Vite, TypeScript, and Tailwind CSS.
 
 Link: https://sungchulpark.ca
 

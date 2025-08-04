@@ -39,7 +39,7 @@ function App() {
       </motion.div>
 
       <motion.div
-        className="w-full mb-8"
+        className="w-full"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 40 }}
         transition={{ duration: 0.5, delay: 0.6, ease: [0, 0, 0.4, 1] }}
@@ -110,19 +110,24 @@ function App() {
 
       </motion.div>
 
-      <div className="w-full">
+      <motion.div 
+        className="w-full mb-8 text-center"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 40 }}
+        transition={{ duration: 0.5, delay: 0.9, ease: [0, 0, 0.4, 1] }}
+      >
         <hr className="mt-4 mb-4 border-gray-00 dark:border-gray-700" />
-        <p className="text-center text-sm text-gray-500 dark:text-gray-400 mb-2">
+        <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
           This portfolio was built with React, Vite, TypeScript, and Tailwind CSS.
         </p>
-        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+        <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
           Thank you for visiting my portfolio. It is still in a work of progress, but I plan to update it over the month of August. <br />
           If you have any questions or feedback, feel free to reach out to me at <a href="mailto:spark0843@gmail.com" className="text-blue-500 hover:underline dark:text-blue-400">spark0843@gmail.com</a>.
         </p>
-        <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-gray-500 dark:text-gray-400">
           © 2025 Sungchul Park. All rights reserved.
         </p>
-      </div>
+      </motion.div>
     </div>
   )
 }

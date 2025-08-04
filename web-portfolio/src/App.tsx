@@ -39,7 +39,7 @@ function App() {
       </motion.div>
 
       <motion.div
-        className="w-full"
+        className="w-full mb-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 40 }}
         transition={{ duration: 0.5, delay: 0.6, ease: [0, 0, 0.4, 1] }}
@@ -109,6 +109,16 @@ function App() {
         </div>
 
       </motion.div>
+
+      <div className="w-full">
+        <hr className="mt-4 mb-4 border-gray-00 dark:border-gray-700" />
+        <p className="text-center text-sm text-gray-500 dark:text-gray-400 mb-2">
+          This portfolio was built with React, Vite, TypeScript, and Tailwind CSS.
+        </p>
+        <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+          Thank you for visiting my portfolio. If you have any questions or feedback, feel free to reach out!
+        </p>
+      </div>
     </div>
   )
 }

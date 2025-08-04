@@ -51,7 +51,7 @@ function App() {
         <div className="mb-8">
           <div className="w-full flex justify-between">
             <div className="font-bold">Full Stack Developer</div>
-            <div className="text-right">April 2022 - November 2023</div>
+            <div className="text-right">Apr 2022 - Nov 2023</div>
           </div>
 
           <div className="w-full flex justify-between">
@@ -71,7 +71,7 @@ function App() {
         <div className="mb-8">
           <div className="w-full flex justify-between">
             <div className="font-bold">Full Stack Developer</div>
-            <div className="text-right">June 2021 - December 2021</div>
+            <div className="text-right">Jun 2021 - Dec 2021</div>
           </div>
 
           <div className="w-full flex justify-between">
@@ -91,7 +91,7 @@ function App() {
         <div className="mb-8">
           <div className="w-full flex justify-between">
             <div className="font-bold">Junior System Analyst</div>
-            <div className="text-right">September 2020 - April 2021</div>
+            <div className="text-right">Sep 2020 - Apr 2021</div>
           </div>
 
           <div className="w-full flex justify-between gap-8">

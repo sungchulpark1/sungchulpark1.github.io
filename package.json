@@ -1,0 +1,21 @@
+{
+  "name": "sungchulpark1.github.io",
+  "version": "1.0.0",
+  "description": "Personal Web Portfolio of Sungchul Park.",
+  "homepage": "https://github.com/sungchulpark1/sungchulpark1.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/sungchulpark1/sungchulpark1.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungchulpark1/sungchulpark1.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Sungchul Park",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd web-portfolio && npm run dev",
+    "build": "cd web-portfolio && npm run build && cp -r dist/* .."
+  }
+}

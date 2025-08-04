@@ -115,8 +115,11 @@ function App() {
         <p className="text-center text-sm text-gray-500 dark:text-gray-400 mb-2">
           This portfolio was built with React, Vite, TypeScript, and Tailwind CSS.
         </p>
+        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+          Thank you for visiting my portfolio. If you have any questions or feedback, feel free to reach out! <a href="mailto:spark0843@gmail.com" className="text-blue-500 hover:underline dark:text-blue-400">spark0843@gmail.com</a>
+        </p>
         <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-          Thank you for visiting my portfolio. If you have any questions or feedback, feel free to reach out!
+          © 2025 Sungchul Park. All rights reserved.
         </p>
       </div>
     </div>

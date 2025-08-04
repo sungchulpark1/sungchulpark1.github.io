@@ -89,7 +89,7 @@ function App() {
         </div>
 
         <div className="mb-8">
-          <div className="w-full flex justify-between">
+          <div className="w-full flex justify-between gap-2">
             <div className="font-bold">Junior System Analyst</div>
             <div className="text-right">Sep 2020 - Apr 2021</div>
           </div>

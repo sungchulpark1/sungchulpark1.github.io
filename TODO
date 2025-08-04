@@ -1,7 +1,7 @@
 TODO:
-  ☐ Implement Google Analytics tracking for the page
   ☐ Update SVG Icon for the page
   ☐ Add meta tags for SEO optimization
 
 DONE:
   ✔ Use motion.div for footnote @done(25-08-04 15:53)
+  ✔ Implement Google Analytics tracking for the page @done(25-08-04 16:07)

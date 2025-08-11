@@ -1,4 +1,4 @@
-name: Deploy site to GitHub Pages
+name: Deploy static site to GitHub Pages
 
 on:
   push:
@@ -18,38 +18,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
 
-      - name: Install npm dependencies (web-portfolio only)
+      - name: Install dependencies
         working-directory: web-portfolio
         run: npm ci
 
-      - name: Build frontend
+      - name: Build site
         working-directory: web-portfolio
         run: npm run build
 
-      # Optional: If you still use Jekyll for blog/docs
-      - name: Build Jekyll site
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-
-      # Move built frontend into Jekyll output
-      - name: Copy frontend build into site
-        run: cp -r web-portfolio/dist/* _site/
-
+      # Upload only your build output to Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: web-portfolio/dist  # Adjust to your build output folder
 
   deploy:
     environment:

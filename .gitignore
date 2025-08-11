@@ -1,2 +1,2 @@
 # Ignore self-hosted runner binaries
-actions-runner/
+actions-runner

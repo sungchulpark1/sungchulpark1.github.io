@@ -61,9 +61,10 @@ function App() {
 
           <div className="w-full">
             <ul className="list-disc list-inside mt-2">
-              <li>Led PostgreSQL database migrations for AWS RDS databases, to enhance security and revamp backend architecture</li>
-              <li>Led project to build and integrate a referral program system into legacy systems to improve customer retention</li>
-              <li>Led project to develop and maintain backend applications and improve CI/CD for backend architecture</li>
+              <li>Led database migrations on AWS RDS, improving backend security and stability while performing code reviews to ensure deployment quality</li>
+              <li>Built and tested backend systems for workflows using Ruby on Rails, Redis, Sidekiq, and Shopify API, implementing automated tests to validate functionality</li>
+              <li>Automated user account and order workflows using test scripts, verifying authentication, registration, and process reliability</li>
+              <li>Managed CI/CD pipelines on Heroku and GitLab, integrating automated testing and Docker containerization to improve release quality</li>
             </ul>
           </div>
         </div>
@@ -81,9 +82,10 @@ function App() {
 
           <div className="w-full">
             <ul className="list-disc list-inside mt-2">
-              <li>Developed template system for dynamic content creation in legacy systems, enhancing work efficiency</li>
-              <li>Optimized backend code for legacy systems, reducing API calls and improving search efficiency</li>
-              <li>Diagnosed and resolved slow performance issues for legacy systems through code analysis and refactoring code</li>
+              <li>Developed a template-driven content system for legacy applications, enabling testable workflows and improving operational efficiency</li>
+              <li>Optimized backend APIs and debugged performance issues, enhancing system stability and reliability</li>
+              <li>Collaborated with team members to identify potential failure points, contributing to regression test development and automated test coverage</li>
+              <li>Documented process improvements and QA workflows, improving cross-team testing practices</li>
             </ul>
           </div>
         </div>
@@ -101,9 +103,10 @@ function App() {
 
           <div className="w-full">
             <ul className="list-disc list-inside mt-2">
-              <li>Developed template system for dynamic content creation in legacy systems, enhancing work efficiency</li>
-              <li>Optimized backend code for legacy systems, reducing API calls and improving search efficiency</li>
-              <li>Diagnosed and resolved slow performance issues for legacy systems through code analysis and refactoring code</li>
+              <li>Established CI/CD standards and created technical documentation, improving release management and collaboration across teams</li>
+              <li>Designed and executed end-to-end and regression test cases to validate code quality and reduce defects</li>
+              <li>Refactored SQL queries within automated testing frameworks, improving test execution speed and reliability</li>
+              <li>Coordinated with developers and QA teams to debug, analyze, and troubleshoot issues, enhancing defect resolution efficiency</li>
             </ul>
           </div>
         </div>
@@ -118,11 +121,10 @@ function App() {
       >
         <hr className="mt-4 mb-4 border-gray-00 dark:border-gray-700" />
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-          This portfolio was built with React, Vite, TypeScript, and Tailwind CSS.
+          This website was built with React, Vite, TypeScript, and Tailwind CSS.
         </p>
         <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-          Thank you for visiting my portfolio. It is still in a work of progress, but I plan to update it over the month of August. <br />
-          If you have any questions or feedback, feel free to reach out to me at <a href="mailto:spark0843@gmail.com" className="text-blue-500 hover:underline dark:text-blue-400">spark0843@gmail.com</a>.
+          Feel free to email me at <a href="mailto:spark0843@gmail.com" className="text-blue-500 hover:underline dark:text-blue-400">spark0843@gmail.com</a> for any business inquiries.
         </p>
         <p className="text-sm text-gray-500 dark:text-gray-400">
           © 2025 Sungchul Park. All rights reserved.

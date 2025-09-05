@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import avatar from "./../assets/avatar.png"
 
 function Header() {
   return (
@@ -15,6 +16,9 @@ function Header() {
         <h2 className="text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
           Full Stack Developer
         </h2>
+        <div className="mt-6 mb-2">
+          <img src={avatar} alt="Sungchul Park" className="w-32 h-32 rounded-full" />
+        </div>
       </motion.div>
       <motion.div
         className="flex flex-col justify-center items-center w-4/5 mb-8 text-center"

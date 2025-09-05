@@ -14,7 +14,7 @@ function Education() {
           Education
         </h2>
         <School degree="Ontario College Diploma in Computer Programming"
-          dates="Sept 2020 - Apr 2022"
+          dates="Sep 2019 - Aug 2021"
           school="Seneca Polytechnic"
           location="Toronto, ON"
         />

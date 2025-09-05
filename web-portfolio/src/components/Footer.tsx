@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 function Footer() {
   return (
     <motion.div
-      className="w-3/4 mb-8 text-center"
+      className="w-3/4 mt-4 mb-8 text-center"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 40 }}
       transition={{ duration: 0.5, delay: 0.9, ease: [0, 0, 0.4, 1] }}

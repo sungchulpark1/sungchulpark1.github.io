@@ -18,6 +18,11 @@ function Education() {
           school="Seneca Polytechnic"
           location="Toronto, ON"
         />
+        <School degree="Ontario College Diploma in Game Programming"
+          dates="Sep 2013 - May 2016"
+          school="George Brown College"
+          location="Toronto, ON"
+        />
       </div>
     </motion.div>
   );

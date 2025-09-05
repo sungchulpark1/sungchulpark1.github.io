@@ -3,7 +3,7 @@ import avatar from "./../assets/avatar.png"
 
 function Header() {
   return (
-    <div className="min-h-[calc(100vh-theme(spacing.8)*2)] flex flex-col justify-center items-center p-8">
+    <div className="min-h-[calc(100vh-theme(spacing.8)*2)] flex flex-col justify-center items-center">
       <motion.div
       className="flex flex-col justify-center items-center w-full text-center"
       initial={{ opacity: 0, scale: 0.5 }}

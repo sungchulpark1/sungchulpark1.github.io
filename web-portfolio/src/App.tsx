@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center p-8">
+    <div className="flex flex-col items-center justify-center">
       <Header />
 
       <Experience />

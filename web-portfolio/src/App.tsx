@@ -110,7 +110,62 @@ function App() {
             </ul>
           </div>
         </div>
+      </motion.div>
 
+      <motion.div
+        className="w-full"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 40 }}
+        transition={{ duration: 0.5, delay: 0.6, ease: [0, 0, 0.4, 1] }}
+      >
+        <h2 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
+          Projects
+        </h2>
+
+        <div className="mb-8">
+          <div className="w-full flex justify-between">
+            <div className="font-bold">Full Stack Developer</div>
+            <div className="text-right">Sep 2025 - Present</div>
+          </div>
+
+          <div className="w-full flex justify-between">
+            <div>Celestial Shaadis</div>
+            <div className="text-right"><a href="https://celestialshaadis.com">View Project</a></div>
+          </div>
+
+          <div className="w-full">
+            <ul className="list-disc list-inside mt-2">
+              <li>Developed a responsive front-end wedding website using React, ensuring cross-browser compatibility and smooth user
+              interactions</li>
+              <li>Implemented EmailJS for contact form functionality, validating message delivery and error handling to ensure
+              reliability</li>
+              <li>Deployed and managed the site with a Cloudflare Worker, testing performance, uptime, and security optimizations</li>
+            </ul>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        className="w-full"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 40 }}
+        transition={{ duration: 0.5, delay: 0.6, ease: [0, 0, 0.4, 1] }}
+      >
+        <h2 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-3xl dark:text-white">
+          Education
+        </h2>
+
+        <div className="mb-8">
+          <div className="w-full flex justify-between">
+            <div className="font-bold">Seneca Polytechnic</div>
+            <div className="text-right">Sep 2019 - Aug 2021</div>
+          </div>
+
+          <div className="w-full flex justify-between">
+            <div>Ontario College Diploma in Computer Programming</div>
+            <div className="text-right">Toronto, Ontario</div>
+          </div>
+        </div>
       </motion.div>
 
       <motion.div 

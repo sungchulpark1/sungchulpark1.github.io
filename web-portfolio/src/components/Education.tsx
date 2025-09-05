@@ -35,7 +35,7 @@ const variants: Variants = {
     y: 100
   },
   onscreen: {
-    y: 50,
+    y: 60,
     transition: {
       type: 'spring',
       bounce: 0.4,

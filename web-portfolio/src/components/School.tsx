@@ -13,7 +13,7 @@ function School({
 }: EducationProps) {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="w-full mb-8">
+      <div className="w-full mb-4">
         <div className="w-full flex justify-between">
           <div className="font-bold">{school}</div>
           <div className="text-right">{dates}</div>

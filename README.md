@@ -16,4 +16,4 @@ Link: https://sungchulpark.ca
 
 `npm run build` to build the project using TypeScript and Vite
 
-`cd actions-runner && ./run.sh` to start the self-hosted GitHub Actions runner
+`npm run ga-runner` to start the self-hosted GitHub Actions runner

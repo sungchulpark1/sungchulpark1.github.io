@@ -16,6 +16,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cd web-portfolio && npm run dev",
-    "build": "cd web-portfolio && npm run build"
+    "build": "cd web-portfolio && npm run build",
+    "ga-runner": "cd actions-runner && ./run.sh"
   }
 }

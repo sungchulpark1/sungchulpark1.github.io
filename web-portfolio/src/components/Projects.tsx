@@ -19,7 +19,7 @@ function Projects() {
           projectTitle="Celestial Shaadis"
           projectLink="https://celestialshaadis.com"
           responsibilities={[
-            "Developed a responsive front-end wedding website using React, ensuring cross-browser compatibility and smooth user interactions",
+            "Developed a responsive front-end website for a wedding planning service using React, ensuring cross-browser compatibility and smooth user interactions",
             "Implemented EmailJS for contact form functionality, validating message delivery and error handling to ensure reliability",
             "Deployed and managed the site with a Cloudflare Worker, testing performance, uptime, and security optimizations"
           ]}

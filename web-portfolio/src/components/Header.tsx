@@ -5,10 +5,10 @@ function Header() {
   return (
     <div className="min-h-[calc(100vh-theme(spacing.5)*2)] flex flex-col justify-center items-center">
       <motion.div
-      className="flex flex-col justify-center items-center w-full text-center"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, ease: [0, 0, 0.4, 1] }}
+        className="flex flex-col justify-center items-center w-full text-center"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, ease: [0, 0, 0.4, 1] }}
       >
       <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         Sungchul Park
@@ -23,10 +23,10 @@ function Header() {
       </div>
       </motion.div>
       <motion.div
-      className="flex flex-col justify-center items-center w-4/5 mb-8 text-center"
-      initial={{ opacity: 0, y: 0 }}
-      animate={{ opacity: 1, y: 20 }}
-      transition={{ duration: 0.5, delay: 0.3, ease: [0, 0, 0.4, 1] }}
+        className="flex flex-col justify-center items-center w-4/5 mb-8 text-center"
+        initial={{ opacity: 0, y: 0 }}
+        animate={{ opacity: 1, y: 20 }}
+        transition={{ duration: 0.5, delay: 0.3, ease: [0, 0, 0.4, 1] }}
       >
       <p className="mb-2">
         Hello! I'm a Full Stack Developer based in Mississauga, Ontario, Canada.

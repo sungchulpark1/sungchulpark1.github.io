@@ -6,9 +6,9 @@ Built with React, Vite, TypeScript, and Tailwind CSS.
 
 Link: https://sungchulpark.ca
 
-## Features
+<!-- ## Features
 
-- Uses a self-hosted GitHub Actions runner for CI/CD
+- Uses a self-hosted GitHub Actions runner for CI/CD -->
 
 ## Instructions
 
@@ -16,4 +16,4 @@ Link: https://sungchulpark.ca
 
 `npm run build` to build the project using TypeScript and Vite
 
-`npm run ga-runner` to start the self-hosted GitHub Actions runner
+<!-- `npm run ga-runner` to start the self-hosted GitHub Actions runner -->

@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 function Content() {
   return (
     <div className="flex justify-between items-center w-250">
@@ -20,7 +22,7 @@ function ExtraContent() {
   return (
     <div className="flex gap-8">
       <Link />
-      <Button />
+      <Button text={"Let's work together"} />
     </div>
   )
 }
@@ -33,13 +35,6 @@ function Link() {
   )
 }
 
-function Button() {
-  return (
-    <button className="bg-black text-white px-4 py-2.5 rounded-lg cursor-pointer">
-      Let's work together
-    </button>
-  )
-}
 
 export default function Navigation() {
   return (

@@ -27,7 +27,7 @@ function ExtraContent() {
 function Link() {
   return (
     <div className="flex items-center">
-      <a href="mailto:spark0843@gmail.com" className="underline text-blue-400">
+      <a href="mailto:spark0843@gmail.com" className="underline text-blue-400 hover:text-blue-500">
         spark0843@gmail.com
       </a>
     </div>

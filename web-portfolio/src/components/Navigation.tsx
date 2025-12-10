@@ -22,7 +22,7 @@ function ExtraContent() {
   return (
     <div className="flex gap-8">
       <Link />
-      <Button text={"Let's work together"} />
+      <Button text={"Let's work together"} link={"mailto:spark0843@gmail.com"} />
     </div>
   )
 }
@@ -30,7 +30,9 @@ function ExtraContent() {
 function Link() {
   return (
     <div className="flex items-center">
-      Case studies
+      <a href="#work" className="hover:text-gray-700">
+        Case studies
+      </a>
     </div>
   )
 }

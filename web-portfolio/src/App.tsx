@@ -1,23 +1,19 @@
-import Header from "./components/Header"
-import Experience from "./components/Experience"
-import Projects from "./components/Projects"
-import Education from "./components/Education"
+import Navigation from "./components/Navigation"
+import PersonalBio from "./components/PersonalBio"
+import SectionHeading from "./components/SectionHeading"
+import ProjectCard from "./components/ProjectCard"
+
+import CelestialShadis from "./assets/celestial-shaadis.png"
 import Footer from "./components/Footer"
 
-function App() {
+export default function App() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <Header />
-
-      <Experience />
-
-      <Projects />
-
-      <Education />
-
+    <>
+      <Navigation />
+      <PersonalBio />
+      <SectionHeading title={"Work"} />
+      <ProjectCard image={CelestialShadis} title={"Celestial Shaadis"} description={"Built a website for a local wedding planning service to promote their services, provide detailed information about their packages, introduce their team, and allow clients to book consultations easily."} />
       <Footer />
-    </div>
+    </>
   )
 }
-
-export default App

@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 function Content() {
   return (
     <div className="flex justify-between items-center w-250">
@@ -20,6 +22,7 @@ function ExtraContent() {
   return (
     <div className="flex gap-8">
       <Link />
+      <Button text={"Let's work together"} link={"mailto:spark0843@gmail.com"} />
     </div>
   )
 }
@@ -27,8 +30,8 @@ function ExtraContent() {
 function Link() {
   return (
     <div className="flex items-center">
-      <a href="mailto:spark0843@gmail.com" className="underline text-blue-400 hover:text-blue-500">
-        spark0843@gmail.com
+      <a href="#work" className="hover:text-gray-700">
+        Case studies
       </a>
     </div>
   )

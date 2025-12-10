@@ -4,6 +4,7 @@ import SectionHeading from "./components/SectionHeading"
 import ProjectCard from "./components/ProjectCard"
 
 import CelestialShadis from "./assets/celestial-shaadis.png"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <PersonalBio />
       <SectionHeading title={"Work"} />
       <ProjectCard image={CelestialShadis} title={"Celestial Shaadis"} description={"Built a website for a local wedding planning service to promote their services, provide detailed information about their packages, introduce their team, and allow clients to book consultations easily."} />
+      <Footer />
     </>
   )
 }

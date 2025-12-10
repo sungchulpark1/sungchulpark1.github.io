@@ -10,7 +10,7 @@ function Thumbnail({
   image
 }: { image: string }) {
   return (
-    <div className="min-w-100">
+    <div className="w-full md:w-1/3 md:min-w-100">
       <img src={image} />
     </div>
   )
@@ -21,7 +21,7 @@ function Content({
   description
 }: { title: string, description: string }) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 w-full md:w-2/3">
       <Title title={title} />
       <Description description={description} />
       <Button text={"View Project"} link={"https://celestialshaadis.com"} />
@@ -56,7 +56,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="flex justify-center px-6 py-14">
-      <div className="flex w-250 gap-8">
+      <div className="flex flex-wrap md:flex-nowrap w-250 gap-8">
         <Thumbnail image={image} />
         <Content title={title} description={description} />
       </div>

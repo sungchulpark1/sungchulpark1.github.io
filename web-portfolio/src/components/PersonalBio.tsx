@@ -1,9 +1,9 @@
-import avatar from "../assets/avatar.png"
+import PhotoPicture from "../assets/photo.png"
 
 function Photo() {
   return (
     <div>
-      <img src={avatar} className="w-22.5" />
+      <img src={PhotoPicture} className="w-22.5" />
     </div>
   )
 }

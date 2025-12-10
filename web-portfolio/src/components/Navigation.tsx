@@ -41,12 +41,10 @@ function Button() {
   )
 }
 
-function Navigation() {
+export default function Navigation() {
   return (
     <div className="flex justify-center h-20 px-6">
       <Content />
     </div>
   )
 }
-
-export default Navigation

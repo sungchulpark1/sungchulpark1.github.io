@@ -4,6 +4,7 @@ interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
+  link: string;
 }
 
 function Thumbnail({
@@ -18,13 +19,14 @@ function Thumbnail({
 
 function Content({
   title,
-  description
-}: { title: string, description: string }) {
+  description,
+  link
+}: { title: string, description: string, link: string }) {
   return (
     <div className="flex flex-col gap-1 md:gap-4 w-full md:w-2/3">
       <Title title={title} />
       <Description description={description} />
-      <Button text={"View Project"} link={"https://celestialshaadis.com"} />
+      <Button text={"View Project"} link={link} />
     </div>
   )
 }
@@ -52,13 +54,14 @@ function Description({
 export default function ProjectCard({
   image,
   title,
-  description
+  description,
+  link
 }: ProjectCardProps) {
   return (
     <div className="flex justify-center px-6 py-14">
       <div className="flex flex-wrap md:flex-nowrap w-250 gap-2 md:gap-8">
         <Thumbnail image={image} />
-        <Content title={title} description={description} />
+        <Content title={title} description={description} link={link} />
       </div>
     </div>
   )

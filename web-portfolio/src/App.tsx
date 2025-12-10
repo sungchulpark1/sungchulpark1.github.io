@@ -1,7 +1,7 @@
 import Navigation from "./components/Navigation"
 import PersonalBio from "./components/PersonalBio"
 
-function App() {
+export default function App() {
   return (
     <>
       <Navigation />
@@ -9,5 +9,3 @@ function App() {
     </>
   )
 }
-
-export default App

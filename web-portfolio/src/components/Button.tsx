@@ -8,7 +8,7 @@ export default function Button({
   link
 }: ButtonProps) {
   return (
-    <a href={link}>
+    <a href={link} className="w-fit">
       <button className="bg-black text-white px-4 py-2.5 rounded-lg cursor-pointer w-fit">
         {text}
       </button>

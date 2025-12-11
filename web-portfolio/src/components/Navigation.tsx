@@ -40,7 +40,7 @@ function Link() {
 
 export default function Navigation() {
   return (
-    <div className="flex justify-center h-20 px-6">
+    <div className="bg-[#FFFDF8] flex justify-center h-20 px-6 sticky top-0">
       <Content />
     </div>
   )

@@ -1,3 +1,5 @@
+import { Link } from "react-router"
+
 interface ButtonProps {
   text: string
   type?: string
@@ -9,13 +11,21 @@ export default function Button({
   type,
   link
 }: ButtonProps) {
-  return (
-    <a href={link} className="w-fit">
-      {type === "secondary" ? <button className="bg-[#FFFDF8] text-black border-black border-solid border-1 px-4 py-2.5 rounded-lg cursor-pointer w-fit hover:bg-black hover:text-[#FFFDF8] duration-200 ease-in-out">
+  function renderButton() {
+    return (
+      type === "secondary" ? <button className="bg-[#FFFDF8] text-black border-black border-solid border-1 px-4 py-2.5 rounded-lg cursor-pointer w-fit hover:bg-black hover:text-[#FFFDF8] duration-200 ease-in-out">
         {text}
       </button> : <button className="bg-black text-white px-4 py-2.5 rounded-lg cursor-pointer w-fit">
         {text}
-      </button>}
+      </button>
+    )
+  }
+
+  return (
+    link?.startsWith("/work") ? <Link to={link} className="w-fit">
+      {renderButton()}
+    </Link> : <a href={link} className="w-fit">
+      {renderButton()}
     </a>
   )
 }

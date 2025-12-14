@@ -32,6 +32,16 @@
           "component": "ImageBlock",
           "image": "/images/celestial-shaadis/image1.png",
           "caption": "Celestial Shaadis’ Instagram account, which served as the primary marketing channel prior to the website."
+        },
+        {
+          "component": "ContentBlock",
+          "title": "Starting point & constraints",
+          "subtitle": "Constraints that shaped the technical approach",
+          "paragraphs": [
+            "At the start of the project, I was given a short delivery window of a week and had to work within a limited budget.",
+            "The solution needed to be quick to build, inexpensive to maintain, and simple enough to operate without ongoing technical overhead.",
+            "These constraints shaped both the scope of the site and the technical approach moving forward."
+          ]
         }
       ]
     }

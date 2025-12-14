@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": "celestial-shaadis",
+      "children": [
+        {
+          "component": "HeadingBlock",
+          "title": "Celestial Shaadis",
+          "subtitle": "Wedding Planning Service",
+          "paragraphs": [
+            "Designing, developing, and deploying a promotional website for a wedding planning service.",
+            "Celestial Shaadis is a wedding planning service located in the GTA, offering a range of services from day-of-coordination, partial, MC, and full wedding planning."
+          ],
+          "year": 2025,
+          "platform": "Web"
+        },
+        {
+          "component": "ImageBlock",
+          "image": "/images/celestial-shaadis/image0.png"
+        }
+      ]
+    }
+  ]
+}

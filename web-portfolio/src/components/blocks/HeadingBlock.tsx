@@ -1,6 +1,6 @@
 interface HeadingBlockProps {
   title: string,
-  type: string,
+  subtitle: string,
   paragraphs: string[],
   year: number,
   platform: string,
@@ -8,7 +8,7 @@ interface HeadingBlockProps {
 
 export default function HeadingBlock({
   title,
-  type,
+  subtitle,
   paragraphs,
   year,
   platform,
@@ -18,7 +18,7 @@ export default function HeadingBlock({
       <div className="flex flex-wrap md:flex-nowrap max-w-250 gap-4 md:gap-0">
         <div className="flex flex-col gap-2 md:w-1/2">
           <span className="font-semibold text-[1.375rem]">{title}</span>
-          <span className="text-[#929292] text-xl">{type}</span>
+          <span className="text-[#929292] text-xl">{subtitle}</span>
         </div>
         <div className="flex flex-col gap-16 md:w-1/2">
           <div className="flex flex-col leading-[2.375rem] gap-6 text-xl">

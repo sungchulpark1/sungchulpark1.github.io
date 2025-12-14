@@ -1,23 +1,48 @@
+import type { Project } from "@/types/project"
 import { useParams } from "react-router"
-import HeadingBlock from "./HeadingBlock"
-import ImageBlock from "./ImageBlock"
-import image0 from "../../assets/celestial-shaadis/image0.png"
+import HeadingBlock from "@/components/blocks/HeadingBlock"
+import ImageBlock from "@/components/blocks/ImageBlock"
+import projectData from "@/data/projects.json"
+
+const projects = projectData as { data: Project[] }
 
 export default function Work() {
-  const params = useParams()
+  const { projectId } = useParams()
 
-  console.log(params)
+  const project = projects.data.find(
+    project => project.id === projectId
+  )
+
+  if (!project) return null
 
   return (
     <div className="flex flex-col">
-      <HeadingBlock 
-        title={"Celestial Shaadis"}
-        type={"Wedding planning service"}
-        paragraphs={["Designing, developing, and deploying a promotional website for a wedding planning service.", "Celestial Shaadis is a wedding planning service located in the GTA, offering a range of services from day-of-coordination, partial, MC, and full wedding planning."]}
-        year={2025}
-        platform="Web"
-      />
-      <ImageBlock image={image0} />
+      {project.children.map((block, index) => {
+        switch (block.component) {
+          case "HeadingBlock":
+            return (
+              <HeadingBlock
+                key={index}
+                title={block.title}
+                subtitle={block.subtitle}
+                paragraphs={block.paragraphs}
+                year={block.year}
+                platform={block.platform}
+              />
+            )
+
+          case "ImageBlock":
+            return (
+              <ImageBlock
+                key={index}
+                image={block.image}
+              />
+            )
+
+          default:
+            return null
+        }
+      })}
     </div>
   )
 }

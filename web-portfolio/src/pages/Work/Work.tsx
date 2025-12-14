@@ -1,5 +1,5 @@
-import type { Project } from "@/types/project"
 import { useParams } from "react-router"
+import type { Project } from "@/types/project"
 import HeadingBlock from "@/components/blocks/HeadingBlock"
 import ImageBlock from "@/components/blocks/ImageBlock"
 import projectData from "@/data/projects.json"
@@ -17,25 +17,21 @@ export default function Work() {
 
   return (
     <div className="flex flex-col">
-      {project.children.map((block, index) => {
+      {project.children.map((block, idx) => {
         switch (block.component) {
           case "HeadingBlock":
             return (
               <HeadingBlock
-                key={index}
-                title={block.title}
-                subtitle={block.subtitle}
-                paragraphs={block.paragraphs}
-                year={block.year}
-                platform={block.platform}
+                key={idx}
+                {...block}
               />
             )
 
           case "ImageBlock":
             return (
               <ImageBlock
-                key={index}
-                image={block.image}
+                key={idx}
+                {...block}
               />
             )
 

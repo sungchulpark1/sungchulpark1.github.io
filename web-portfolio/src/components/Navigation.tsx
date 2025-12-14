@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import Button from "./Button"
 
 function Content() {
@@ -12,22 +13,24 @@ function Content() {
 
 function Name() {
   return (
-    <h1 className="font-black text-xl">
-      Sungchul Park
-    </h1>
+    <Link to="/">
+      <h1 className="font-black text-xl">
+        Sungchul Park
+      </h1>
+    </Link>
   )
 }
 
 function ExtraContent() {
   return (
     <div className="flex gap-8">
-      <Link />
+      <NavLink />
       <Button text={"Let's work together"} link={"mailto:spark0843@gmail.com"} />
     </div>
   )
 }
 
-function Link() {
+function NavLink() {
   return (
     <div className="flex items-center">
       <a href="#work" className="hover:text-gray-700">

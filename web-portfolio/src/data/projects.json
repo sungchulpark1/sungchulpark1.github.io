@@ -17,6 +17,21 @@
         {
           "component": "ImageBlock",
           "image": "/images/celestial-shaadis/image0.png"
+        },
+        {
+          "component": "ContentBlock",
+          "title": "The challenge",
+          "subtitle": "Building a promotional website",
+          "paragraphs": [
+            "Celestial Shaadis was a newly launched local business that built its initial audience and brand presence through Instagram and TikTok.",
+            "As the business grew, they needed a centralized website to clearly showcase their services and capture leads.",
+            "I worked closely with the business from the outset to define requirements, align on expectations, and ensure a smooth delivery process."
+          ]
+        },
+        {
+          "component": "ImageBlock",
+          "image": "/images/celestial-shaadis/image1.png",
+          "caption": "Celestial Shaadis’ Instagram account, which served as the primary marketing channel prior to the website."
         }
       ]
     }

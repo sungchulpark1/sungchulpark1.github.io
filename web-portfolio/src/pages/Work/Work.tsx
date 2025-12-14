@@ -3,6 +3,7 @@ import type { Project } from "@/types/project"
 import HeadingBlock from "@/components/blocks/HeadingBlock"
 import ImageBlock from "@/components/blocks/ImageBlock"
 import projectData from "@/data/projects.json"
+import ContentBlock from "@/components/blocks/ContentBlock"
 
 const projects = projectData as { data: Project[] }
 
@@ -30,6 +31,14 @@ export default function Work() {
           case "ImageBlock":
             return (
               <ImageBlock
+                key={idx}
+                {...block}
+              />
+            )
+
+          case "ContentBlock":
+            return (
+              <ContentBlock
                 key={idx}
                 {...block}
               />

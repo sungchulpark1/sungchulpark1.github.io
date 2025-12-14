@@ -42,6 +42,39 @@
             "The solution needed to be quick to build, inexpensive to maintain, and simple enough to operate without ongoing technical overhead.",
             "These constraints shaped both the scope of the site and the technical approach moving forward."
           ]
+        },
+        {
+          "component": "ImageBlock",
+          "image": "/images/celestial-shaadis/image2.png",
+          "caption": "Deciding on a tech stack to meet tight constraints"
+        },
+        {
+        "component": "ContentBlock",
+          "title": "Technical approach",
+          "subtitle": "Balancing speed, simplicity, and maintainability",
+          "paragraphs": [
+            "Given the tight timeline and limited budget, I chose a stack I could work with efficiently, deciding on React for the frontend and Vite for the build tooling to keep development fast and lightweight.",
+            "Because the site was intended to be fully static, I looked for low-cost solutions to handle contact form submissions without introducing a backend. I settled on EmailJS, which allowed emails to be sent directly from the frontend and fit well within the expected usage limits.",
+            "To ensure fast delivery and a straightforward setup, I opted for Cloudflare for both static hosting and DNS management.",
+            "Finally, to provide the business owner with visibility into how users interacted with the site, I integrated Google Analytics to track engagement after launch."
+          ]
+        },
+        {
+          "component": "ImageBlock",
+          "image": "/images/celestial-shaadis/image3.png",
+          "caption": "Centralized lead capture through a simple, user-friendly consultation form"
+        },
+        {
+        "component": "ContentBlock",
+          "title": "Outcome",
+          "subtitle": "How the website delivered value for the client",
+          "paragraphs": [
+            "After implementing the site with this stack, the website launched smoothly within the tight timeline, providing the client with a centralized platform to showcase their services and help attract new clients."
+          ],
+          "button": {
+            "text": "View Project →",
+            "link": "https://celestialshaadis.com"
+          }
         }
       ]
     }

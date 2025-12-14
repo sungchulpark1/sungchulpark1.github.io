@@ -1,9 +1,11 @@
 import type { ContentBlockProps } from "@/types/project"
+import Button from "../Button"
 
 export default function ContentBlock({
   title,
   subtitle,
   paragraphs,
+  button,
 }: ContentBlockProps) {
   return (
     <div className="flex justify-center px-6 py-40">
@@ -17,6 +19,9 @@ export default function ContentBlock({
             {paragraphs.map((p, idx) => (
               <p key={idx}>{p}</p>
             ))}
+            {button && <div>
+              <Button type={"secondary"} link={button.link} text={button.text} />
+            </div>}
           </div>
         </div>
       </div>

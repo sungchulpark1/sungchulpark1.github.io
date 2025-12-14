@@ -20,6 +20,10 @@ export type ContentBlockData = {
   title: string
   subtitle: string
   paragraphs: string[]
+  button?: {
+    text: string
+    link: string
+  }
 }
 export type ContentBlockProps = Omit<ContentBlockData, "component">
 

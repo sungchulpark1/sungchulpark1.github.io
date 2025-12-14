@@ -33,7 +33,7 @@ function ExtraContent() {
 function NavLink() {
   return (
     <div className="flex items-center">
-      <a href="#work" className="hover:text-gray-700">
+      <a href="/#work" className="hover:text-gray-700">
         Case studies
       </a>
     </div>

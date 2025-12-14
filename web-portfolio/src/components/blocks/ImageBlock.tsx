@@ -1,6 +1,4 @@
-interface ImageBlockProps {
-  image: string
-}
+import type { ImageBlockProps } from "@/types/project"
 
 export default function ImageBlock({
   image

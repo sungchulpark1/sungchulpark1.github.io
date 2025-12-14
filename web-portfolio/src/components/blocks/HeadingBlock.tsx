@@ -1,10 +1,4 @@
-interface HeadingBlockProps {
-  title: string,
-  subtitle: string,
-  paragraphs: string[],
-  year: number,
-  platform: string,
-}
+import type { HeadingBlockProps } from "@/types/project"
 
 export default function HeadingBlock({
   title,
@@ -22,8 +16,9 @@ export default function HeadingBlock({
         </div>
         <div className="flex flex-col gap-16 md:w-1/2">
           <div className="flex flex-col leading-[2.375rem] gap-6 text-xl">
-            <p>{paragraphs[0]}</p>
-            <p>{paragraphs[1]}</p>
+            {paragraphs.map((p, idx) => (
+              <p key={idx}>{p}</p>
+            ))}
           </div>
           <div className="flex gap-16 text-xl">
             <div className="flex flex-col">

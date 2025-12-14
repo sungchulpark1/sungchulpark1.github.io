@@ -1,4 +1,4 @@
-import PhotoPicture from "../assets/photo.png"
+import PhotoPicture from "../../assets/photo.png"
 
 function Photo() {
   return (

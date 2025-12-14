@@ -1,5 +1,7 @@
 import { useParams } from "react-router"
 import HeadingBlock from "./HeadingBlock"
+import ImageBlock from "./ImageBlock"
+import image0 from "../../assets/celestial-shaadis/image0.png"
 
 export default function Work() {
   const params = useParams()
@@ -7,7 +9,7 @@ export default function Work() {
   console.log(params)
 
   return (
-    <div className="flex justify-center px-6 py-40">
+    <div className="flex flex-col">
       <HeadingBlock 
         title={"Celestial Shaadis"}
         type={"Wedding planning service"}
@@ -15,6 +17,7 @@ export default function Work() {
         year={2025}
         platform="Web"
       />
+      <ImageBlock image={image0} />
     </div>
   )
 }

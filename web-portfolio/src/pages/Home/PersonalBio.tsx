@@ -1,4 +1,4 @@
-import PhotoPicture from "../../assets/photo.png"
+import PhotoPicture from "../../assets/avatar.png"
 
 function Photo() {
   return (
@@ -19,7 +19,7 @@ function Heading() {
 function Description() {
   return (
     <div className="font-normal text-[1.75rem] leading-[2.375rem] space-y-4">
-      <p>I’m a <strong className="font-bold" >Software Developer.</strong> I’m passionate about solving problems and building creative solutions. When I’m not working, I love cuddling with my dog. </p>
+      <p>I’m a <strong className="font-bold" >Software Developer.</strong> I’m passionate about solving problems and building creative solutions. When I’m not working, I build and experiment with projects while sharpening my problem-solving through regular algorithm and data structure challenges.</p>
       <p>I’ve previously worked in tech startups for a couple of years and now working as a <strong className="font-bold">Freelance Web Developer.</strong></p>
     </div>
   )
